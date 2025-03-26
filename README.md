@@ -29,16 +29,6 @@ Ces indicateurs sont mis à jour dynamiquement selon les filtres de ville(s) et 
 
 ---
 
-## 🖼️ Aperçu du dashboard
-
-### Vue générale
-![Aperçu du dashboard - partie haute](./Capture%20d’écran%202025-03-26%20à%2014.09.21.png)
-
-### Partie inférieure
-![Aperçu du dashboard - partie basse](./Capture%20d’écran%202025-03-26%20à%2014.09.23.png)
-
----
-
 ## Lien
 
 https://partiel-python-dash-pierreqdk-1.onrender.com
