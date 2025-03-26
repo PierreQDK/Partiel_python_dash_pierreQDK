@@ -27,20 +27,20 @@ Ces indicateurs sont mis à jour dynamiquement selon les filtres de ville(s) et 
 
 > Tous les graphiques réagissent aux sélections des filtres (ville et sexe).
 
----
+
 
 ## Lien
 
 https://partiel-python-dash-pierreqdk-1.onrender.com
 
----
+
 ## Langages de programmation
 
 Langage : Python
 
 Packages : pandas, plotly, dash, dash-bootstrap-components, numpy
 
----
+
 ## Auteur 
 
 📌 Pierre QUINTIN de KERCADIO
