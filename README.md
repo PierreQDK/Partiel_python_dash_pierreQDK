@@ -1,18 +1,18 @@
 # Dashboard Interactif – Ventes de Supermarché
 
-## 📌 Description
+## Description
 
 Ce projet est un tableau de bord interactif développé avec **Plotly Dash** permettant d'analyser les ventes d’un supermarché fictif à partir du jeu de données `supermarket_sales.csv`.
 
 L'utilisateur peut filtrer dynamiquement les visualisations par **ville** et par **sexe**, afin d’obtenir des indicateurs pertinents et des graphiques descriptifs.
 
-## 🎯 Objectifs pédagogiques
+## Objectifs pédagogiques
 
 - Appliquer les compétences acquises en visualisation de données interactives avec **Dash**.
 - Manipuler un jeu de données réel pour produire des **indicateurs dynamiques**.
 - Concevoir un tableau de bord fluide et esthétique, intégrant plusieurs types de visualisations.
 
-## ✅ Fonctionnalités incluses
+## Fonctionnalités incluses
 
 ### 🎯 Indicateurs interactifs
 - **Montant total des achats** (Total)  
