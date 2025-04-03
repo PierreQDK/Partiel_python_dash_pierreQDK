@@ -165,7 +165,7 @@ def update_dashboard(cities, gender):
     # Histogramme des montants totaux
     fig_hist = px.histogram(
     filtered_df,
-    x='Total',
+    x='Total', 
     nbins=30,
     color='City',
     pattern_shape='Gender',  # Le genre est différencié par motif (hachure)
@@ -173,11 +173,11 @@ def update_dashboard(cities, gender):
         "Yangon": "#D98E73",      # orange doux
         "Naypyitaw": "#88BDBC",   # bleu canard clair
         "Mandalay": "#A3B18A"     # vert olive clair
-    }
+    }, 
+     labels={"count": "Nombre d'achats", "Total": "Montant total ($)"}
 )
     
    
-
 
 
     # Diagramme en barres du nombre d’achats
@@ -187,19 +187,18 @@ def update_dashboard(cities, gender):
     x='City',
     y='Invoice ID',
     color='City',
+    pattern_shape='Gender',
     barmode='group',
     color_discrete_sequence=["#A3B18A", "#88BDBC", "#D98E73"], 
+    labels={"Invoice ID": "Nombre d’achats", "City": "Ville"}
     )
- 
 
-    # Diagramme circulaire des catégories de produits
+
     pie_data = filtered_df['Product line'].value_counts().reset_index()
     fig_pie = px.pie(pie_data, names='index', values='Product line',color_discrete_sequence=["#A3B18A", "#D98E73", "#A9C5D3", "#C9BBCF", "#E3B778", "#88BDBC"]
                      )
 
     return fig_total, fig_rating, fig_hist, fig_bar, fig_pie
 
-server = app.server
-
 if __name__ == '__main__':
-    app.run_server(debug=False, host = "0.0.0.0", port=8080)
+    app.run_server(debug=True, port=8055, jupyter_mode="external")
